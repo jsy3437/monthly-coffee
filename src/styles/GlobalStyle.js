@@ -12,6 +12,9 @@ const GlobalStyle = createGlobalStyle`
     body{
         margin:0;
         overflow-x:hidden;
+        font-family: droid-sans, sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
         
     }
     h1,
@@ -31,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
     	margin: 0;
 	    word-break: keep-all;
 	    white-space: pre-wrap;
+        
     }
 `;
 export default GlobalStyle;
